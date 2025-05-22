@@ -1,4 +1,37 @@
 /* Blank stylesheet */
 body {
   background-color: #f0cbfb;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  color: #4B006E;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #666666;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.profile-card {
+  background: #fff;
+  border: 2px solid #e0b3ff;
+  border-radius: 16px;
+  max-width: 350px;
+  margin: 3rem auto;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 4px 16px rgba(75, 0, 110, 0.08);
 }
