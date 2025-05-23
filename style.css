@@ -48,3 +48,21 @@ p {
   line-height: 1.6; /* More space between lines for readability */
   text-align: center; /* Center the paragraph text */
 }
+
+/* Add space between list items in the profile card */
+.profile-card ul li {
+  margin-bottom: 1rem;
+}
+
+/* Style for circular profile images */
+.profile-circle {
+  display: block;
+  margin: 1.5rem auto;
+  max-width: 200px;
+  width: 120px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 4px solid #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
