@@ -19,7 +19,7 @@ body {
 /* Style the profile card container */
 .profile-card {
   background: #fff; /* White background for the card */
-  border: 2px solid #e0b3ff; /* Light purple border */
+  border: 13px solid #e0b3ff; /* Thicker light purple border */
   border-radius: 16px; /* Rounded corners */
   max-width: 350px; /* Maximum width of the card */
   margin: 3rem auto; /* Center the card horizontally with margin on top and bottom */
@@ -72,6 +72,11 @@ p {
   height: 160px;
   object-fit: cover;
   border-radius: 16px;
-  border: 4px solid #fff;
+  border: 4px solid #a18fc6; /* grey-purple border */
   box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+/* Specific style for Lucretia's photo */
+img[alt="Lucretia's photo"] {
+  margin: 2.5rem auto !important;
 }
