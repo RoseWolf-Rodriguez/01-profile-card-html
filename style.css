@@ -23,7 +23,7 @@ body {
   border-radius: 16px; /* Rounded corners */
   max-width: 350px; /* Maximum width of the card */
   margin: 3rem auto; /* Center the card horizontally with margin on top and bottom */
-  padding: 2rem 1.5rem; /* Space inside the card */
+  padding: 3rem 2.5rem; /* Increased space inside the card */
   box-shadow: 0 4px 16px rgba(75, 0, 110, 0.08); /* Subtle shadow for depth */
 }
 
@@ -36,7 +36,7 @@ h1, h2, h3 {
 h1 {
   font-size: 2.5rem; /* Make the heading large */
   margin-top: 2rem; /* Space above the heading */
-  color: #4B006E; /* Dark purple color */
+  color: #533760; /* Dark purple color */
 }
 
 /* Style the subheading */
