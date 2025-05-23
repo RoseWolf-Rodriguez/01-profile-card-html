@@ -1,37 +1,50 @@
 /* Blank stylesheet */
+
+/* Set the background color of the entire page */
 body {
   background-color: #f0cbfb;
+  /* Apply the Montserrat font from Google Fonts, fallback to Arial or sans-serif */
   font-family: 'Montserrat', Arial, sans-serif;
 }
 
-h1, h2 {
-  text-align: center;
-}
-
-h1 {
-  font-size: 2.5rem;
-  margin-top: 2rem;
-  color: #4B006E;
-}
-
-h2 {
-  font-size: 1.5rem;
-  margin-top: 1rem;
-  color: #666666;
-}
-
-p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  text-align: center;
-}
-
+/* Style the profile card container */
 .profile-card {
-  background: #fff;
-  border: 2px solid #e0b3ff;
-  border-radius: 16px;
-  max-width: 350px;
-  margin: 3rem auto;
-  padding: 2rem 1.5rem;
-  box-shadow: 0 4px 16px rgba(75, 0, 110, 0.08);
+  background: #fff; /* White background for the card */
+  border: 2px solid #e0b3ff; /* Light purple border */
+  border-radius: 16px; /* Rounded corners */
+  max-width: 350px; /* Maximum width of the card */
+  margin: 3rem auto; /* Center the card horizontally with margin on top and bottom */
+  padding: 2rem 1.5rem; /* Space inside the card */
+  box-shadow: 0 4px 16px rgba(75, 0, 110, 0.08); /* Subtle shadow for depth */
+}
+
+/* Center the main heading and subheading */
+h1, h2, h3 {
+  text-align: center;
+}
+
+/* Style the main heading */
+h1 {
+  font-size: 2.5rem; /* Make the heading large */
+  margin-top: 2rem; /* Space above the heading */
+  color: #4B006E; /* Dark purple color */
+}
+
+/* Style the subheading */
+h2 {
+  font-size: 1.5rem; /* Slightly smaller than h1 */
+  margin-top: 1rem; /* Space above the subheading */
+  color: #666666; /* Dark grey color */
+}
+
+/* Style the sub-subheading */
+h3 {
+  text-align: center; /* Center the h3 heading */
+}
+
+/* Style the paragraph text */
+p {
+  font-size: 1.1rem; /* Slightly larger than default text */
+  line-height: 1.6; /* More space between lines for readability */
+  text-align: center; /* Center the paragraph text */
 }
