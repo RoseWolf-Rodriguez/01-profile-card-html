@@ -2,7 +2,16 @@
 
 /* Set the background color of the entire page */
 body {
-  background-color: #f0cbfb;
+  background-color: #c583d9;
+  /* Make yellow diagonal stripes larger */
+  background-image:
+    repeating-linear-gradient(
+      135deg,
+      #fae9a3 0px,
+      #ffeda4 40px,
+      transparent 40px,
+      transparent 80px
+    );
   /* Apply the Montserrat font from Google Fonts, fallback to Arial or sans-serif */
   font-family: 'Montserrat', Arial, sans-serif;
 }
